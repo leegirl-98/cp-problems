@@ -1,0 +1,8 @@
+class Solution:
+    def middle(self,A,B,C):
+        l=[]
+        l.append(A)
+        l.append(B)
+        l.append(C)
+        l.sort()
+        return l[1]
